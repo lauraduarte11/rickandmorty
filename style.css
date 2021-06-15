@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-image: url(https://cdn.wallpapersafari.com/53/72/cMIO9o.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.title {
+    width: 1000px;
+    height: 50px;
+    margin: auto
+}
+
+img#cabecalho {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+main {
+    height: 350px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+main > section > img {
+    height: 170x;
+    width:  170px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px 0;
+    border: 1px solid rgba(139, 139, 139, 0.712);
+    border-radius: 4px;
+    box-shadow: 1px 0px 8px 1px rgba(39, 248, 11, 0.76);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+main > section > p {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family:'Arial';
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
